@@ -1,0 +1,5 @@
+* General idea
+** ~WWW::Fedi~
+~WWW::Fedi~ has many ~WWW::Fedi::Clients~, each of which has an ~ap~ attribute which handles ~WWW::Fedi::Roles::APish~. Each client should provide for a similar set of functions, but not all clients will fulfill all sets of functions (as not all AP servers provide the same service endpoints or AP objects). Objects will need to be returned in a Perl hash which acts as an abstracted AP Object compatible with Mastodon, Pleroma, Misskey, and in the future Peertube and other federated services which provide non-Note/Status data to the fediverse.
+** ~WWW::Fedi::AP::Object~
+** ~WWW::Fedi::AP::Activity~
